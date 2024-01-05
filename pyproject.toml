@@ -15,8 +15,6 @@ readme="README.md"
 requires-python = ">=3.9"
 dependencies = [
     "ducktools-lazyimporter",
-    "ducktools-script_metadata_parser@git+https://github.com/DavidCEllis/ducktools-script_metadata_parser",
-    "ducktools-jsonkit@git+https://github.com/DavidCEllis/ducktools-jsonkit",
 ]
 classifiers = [
     "Development Status :: 1 - Planning",

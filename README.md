@@ -12,8 +12,6 @@ If you are using one of the modules in a project it is recommended to depend on 
 Included modules:
 
     ducktools-lazyimporter
-    ducktools-jsonkit (github, pre-release)
-    ducktools-script_metadata_parser (github, pre-release)
 
 ## Licensing ##
 
