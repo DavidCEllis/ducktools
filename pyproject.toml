@@ -34,7 +34,7 @@ testing = ["pytest", "pytest-cov"]
 where = ["src"]
 
 [tool.setuptools.dynamic]
-version = {attr = "ducktools._package.__version__"}
+version = {attr = "ducktools._namespace_version.__version__"}
 
 [tool.pytest.ini_options]
 addopts= "--cov=src/ --cov-report=term-missing"

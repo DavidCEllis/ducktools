@@ -2,12 +2,12 @@
 
 This is a namespace project that will install *all* ducktools modules.
 
-This mostly exists to make sure that 'ducktools' on pip installs ducktools namespaced projects 
-and isn't used by someone else in the future. 
-`pip install ducktools` will install the latest versions of *all* modules I have created under the
-ducktools namespace.
+This mostly exists to make sure that 'ducktools' on pip installs all ducktools namespaced projects in the case
+that someone types `pip install ducktools`.
 
 If you are using one of the modules in a project it is recommended to depend on that module directly.
+
+This adds one private `_namespace_version` module that provides the version of the meta project.
 
 Included modules:
 * [ducktools-lazyimporter](https://github.com/DavidCEllis/ducktools-lazyimporter)
