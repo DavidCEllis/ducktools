@@ -10,8 +10,7 @@ ducktools namespace.
 If you are using one of the modules in a project it is recommended to depend on that module directly.
 
 Included modules:
-
-    ducktools-lazyimporter
+* [ducktools-lazyimporter](https://github.com/DavidCEllis/ducktools-lazyimporter)
 
 ## Licensing ##
 
