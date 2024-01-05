@@ -25,7 +25,7 @@ classifiers = [
     "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
     "Operating System :: OS Independent",
 ]
-version = "v0.1.1"
+version = "v0.1.2"
 
 [project.optional-dependencies]
 testing = ["pytest", "pytest-cov"]
