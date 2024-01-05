@@ -26,12 +26,3 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 version = "v0.1.2"
-
-[project.optional-dependencies]
-testing = ["pytest", "pytest-cov"]
-
-[tool.pytest.ini_options]
-addopts= "--cov=src/ --cov-report=term-missing"
-testpaths = [
-    "tests",
-]
