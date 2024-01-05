@@ -6,22 +6,25 @@ requires = [
 build-backend = "setuptools.build_meta"
 
 [project]
-name="ducktools-MODULENAME"
-description="New Ducktools Module"
+name="ducktools"
+description="Ducktools meta package"
 authors = [
   { name="David C Ellis" },
 ]
 readme="README.md"
-requires-python = ">=3.8"
-dependencies = []
+requires-python = ">=3.9"
+dependencies = [
+    "ducktools-lazyimporter",
+    "ducktools-script_metadata_parser@git+https://github.com/DavidCEllis/ducktools-script_metadata_parser",
+    "ducktools-jsonkit@git+https://github.com/DavidCEllis/ducktools-jsonkit",
+]
 classifiers = [
     "Development Status :: 1 - Planning",
-    "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
-    "License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
     "Operating System :: OS Independent",
 ]
 dynamic = ['version']
@@ -33,7 +36,7 @@ testing = ["pytest", "pytest-cov"]
 where = ["src"]
 
 [tool.setuptools.dynamic]
-version = {attr = "ducktools.MODULENAME.__version__"}
+version = {attr = "ducktools._package.__version__"}
 
 [tool.pytest.ini_options]
 addopts= "--cov=src/ --cov-report=term-missing"
