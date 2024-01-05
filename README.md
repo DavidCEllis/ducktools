@@ -7,7 +7,8 @@ that someone types `pip install ducktools`.
 
 If you are using one of the modules in a project it is recommended to depend on that module directly.
 
-This adds one private `_namespace_version` module that provides the version of the meta project.
+Modules are not versioned under this meta package, it will always install the newest version
+of all included modules.
 
 Included modules:
 * [ducktools-lazyimporter](https://github.com/DavidCEllis/ducktools-lazyimporter)

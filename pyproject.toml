@@ -25,16 +25,10 @@ classifiers = [
     "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
     "Operating System :: OS Independent",
 ]
-dynamic = ['version']
+version = "v0.1.1"
 
 [project.optional-dependencies]
 testing = ["pytest", "pytest-cov"]
-
-[tool.setuptools.packages.find]
-where = ["src"]
-
-[tool.setuptools.dynamic]
-version = {attr = "ducktools._namespace_version.__version__"}
 
 [tool.pytest.ini_options]
 addopts= "--cov=src/ --cov-report=term-missing"
