@@ -13,6 +13,8 @@ of all included modules.
 Included modules:
 * [ducktools-lazyimporter](https://github.com/DavidCEllis/ducktools-lazyimporter)
 * [ducktools-jsonkit](https://github.com/DavidCEllis/ducktools-jsonkit)
+* [ducktools-scriptmetadata](https://pypi.org/project/ducktools-scriptmetadata/)
+
 
 ## Licensing ##
 
