@@ -17,6 +17,7 @@ dependencies = [
     "ducktools-lazyimporter",
     "ducktools-jsonkit",
     "ducktools-scriptmetadata",
+    "ducktools-pythonfinder",
 ]
 classifiers = [
     "Development Status :: 1 - Planning",
@@ -26,4 +27,4 @@ classifiers = [
     "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
     "Operating System :: OS Independent",
 ]
-version = "v0.1.4"
+version = "v0.2.0"
