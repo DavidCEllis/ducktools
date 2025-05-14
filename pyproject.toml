@@ -6,21 +6,22 @@ requires = [
 build-backend = "setuptools.build_meta"
 
 [project]
-name="ducktools"
-version = "v0.4.0"
-description="Ducktools meta package"
+name = "ducktools"
+version = "v0.5.0"
+description = "Ducktools meta package"
 authors = [
-  { name="David C Ellis" },
+    { name = "David C Ellis" },
 ]
-readme="README.md"
+readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "ducktools-lazyimporter",
-    "ducktools-jsonkit",
-    "ducktools-scriptmetadata",
-    "ducktools-pythonfinder",
     "ducktools-classbuilder",
     "ducktools-env",
+    "ducktools-jsonkit",
+    "ducktools-lazyimporter",
+    "ducktools-pythonfinder",
+    "ducktools-pytui",
+    "ducktools-scriptmetadata",
 ]
 classifiers = [
     "Development Status :: 1 - Planning",

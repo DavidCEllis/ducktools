@@ -11,12 +11,13 @@ Modules are not versioned under this meta package, it will always install the ne
 of all included modules.
 
 Included modules:
-* [ducktools-lazyimporter](https://pypi.org/project/ducktools-lazyimporter/)
-* [ducktools-jsonkit](https://pypi.org/project/ducktools-jsonkit/)
-* [ducktools-scriptmetadata](https://pypi.org/project/ducktools-scriptmetadata/)
-* [ducktools-pythonfinder](https://pypi.org/project/ducktools-pythonfinder/)
 * [ducktools-classbuilder](https://pypi.org/project/ducktools-classbuilder/)
 * [ducktools-env](https://pypi.org/project/ducktools-env/)
+* [ducktools-jsonkit](https://pypi.org/project/ducktools-jsonkit/)
+* [ducktools-lazyimporter](https://pypi.org/project/ducktools-lazyimporter/)
+* [ducktools-pythonfinder](https://pypi.org/project/ducktools-pythonfinder/)
+* [ducktools-pytui](https://pypi.org/project/ducktools-pytui)
+* [ducktools-scriptmetadata](https://pypi.org/project/ducktools-scriptmetadata/)
 
 ## Licensing ##
 
