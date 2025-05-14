@@ -21,5 +21,4 @@ Included modules:
 
 ## Licensing ##
 
-Individual components of ducktools may be licensed under more permissive (non-copyleft) licences
-this namespace package uses GPLv3 as the least permissive license any included project may use.
+All ducktools components are licenced under the MIT License, so this metapackage has been updated to also use the MIT License.
